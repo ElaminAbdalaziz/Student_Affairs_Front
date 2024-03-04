@@ -1,0 +1,79 @@
+<html lang="en">
+    <!DOCTYPE html/>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="view-students.css">
+        <title>View Students</title>
+    </head>
+
+    <body>
+        <nav>
+            <img class="logo" src="logo1.jpg">
+            <ul class="nav">
+                <li class="nav_li"><a href="Related-Websites.html">Related Websites</a></li>
+                <li class="nav_li"><a href="Home.html">Home</a></li>
+                <li class="nav_li"><a href="Add_Student.html">Add Student</a></li>
+                <li class="nav_li"><a href="Update_Student_Info.html">Update Student Info</a></li>
+                <li class="nav_li"><a href="Search_Student.html">Search Students</a></li>
+                <li class="nav_li"><a href="Department_Assignment.html">Department Assignment</a></li>
+                <li class="nav_li"><a href="View_Students.html">View Students</a></li>
+            </ul>
+        </nav>
+       
+        <div class="div2">
+            <h2>View All Students</h2>
+
+            <div class="div1">       
+                <table id="studentsTable">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Name</th>
+                            <th>Status</th>
+                            <th>Change Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Table rows will be dynamically added (after inserting data) -->
+                    </tbody>
+                </table>
+
+                <input type="button" value="view" id="btn1" onclick="renderTable()">
+            </div>
+        </div>
+        
+
+        <footer>
+            <div class="container>">
+                <div class="row">
+                    <div class="footer_col">
+                        <h4>Menu Links</h4>
+                        <ul class="ul3">
+                            <li class="footer_li"><a href="Projects.html">projects</a></li>
+                            <li class="footer_li"><a href="Home.html">Home</a></li>
+                            <li class="footer_li"><a href="Add_Student.html">Add Student</a></li>
+                            <li class="footer_li"><a href="Update_Student_Info.html">Update Student Info</a></li>
+                            <li class="footer_li"><a href="Search_Student.html">Search Students</a></li>
+                            <li class="footer_li"><a href="Department_Assignment.html">Department Assignment</a></li>
+                            <li class="footer_li"><a href="View_Students.html">View Students</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer_col">
+                        <h4>Information</h4>
+                        <ul class="ul3">
+                            <li class="footer_li"><a href="#">About us</a></li>
+                            <li class="footer_li"><a href="#">Privacy & Policy</a></li>
+                            <li class="footer_li"><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+             
+                </div>
+            </div>
+        </footer>
+
+        <script src="view-student.js"></script>
+    </body>
+</html>
